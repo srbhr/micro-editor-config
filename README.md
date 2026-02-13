@@ -4,7 +4,7 @@ Custom themes and personal settings for the [micro editor](https://micro-editor.
 
 ## What's Inside
 
-This repository contains **color schemes / themes for micro editor** — handcrafted with a personal touch — along with my keybindings and editor settings.
+This repository contains **color schemes / themes for micro editor.** Crafted with a personal touch along with my keybindings and editor settings.
 
 ### Themes
 
@@ -21,6 +21,8 @@ Located in `colorschemes/`:
 | tokyo-night | Tokyo Night color palette |
 | ultraviolet | Purple-heavy dark theme |
 | verdant | Green-tinted nature theme |
+
+27;5;27~Note: By adding `default` in the theme, you're inheriting your terminal's background. Using this, you can keep your terminal's opacity.
 
 ### Settings
 
@@ -98,8 +100,4 @@ Micro supports left (`statusformatl`) and right (`statusformatr`) status bar for
 "statusformatr": "Ln $(status.line):$(status.col) | $(status.percent)% | $(status.branch)"
 ```
 
-This gives you the file name with an unsaved indicator on the left, and cursor position, progress, and git branch on the right. Clean and useful — don't clutter it with everything.
-
----
-
-**Keywords**: micro editor themes, micro editor color schemes, micro text editor themes, micro editor colorschemes, custom themes for micro editor, micro editor macOS cmd keybindings, micro editor status bar
+This gives you the file name with an unsaved indicator on the left, and cursor position, progress, and git branch on the right.
