@@ -1,0 +1,10 @@
+{
+	"colorscheme": "ayu-mirage",
+	"diffgutter": true,
+	"mkparents": true,
+	"scrollbar": true,
+	"softwrap": true,
+	"statusformatl": "$(status.filename) $(status.modified)",
+	"statusformatr": "Ln $(status.line)/$(status.lines) | Col $(status.col) | $(status.branch) $(status.hash)",
+	"tabstospaces": true
+}
