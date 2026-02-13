@@ -4,7 +4,7 @@
 	"mkparents": true,
 	"scrollbar": true,
 	"softwrap": true,
-	"statusformatl": "$(status.filename) $(status.modified)",
-	"statusformatr": "Ln $(status.line)/$(status.lines) | Col $(status.col) | $(status.branch) $(status.hash)",
+	"statusformatl": "%(filename) %(modified)",
+	"statusformatr": "Ln %(line)/%(lines) | Col %(col) | %(branch) %(hash)",
 	"tabstospaces": true
 }
